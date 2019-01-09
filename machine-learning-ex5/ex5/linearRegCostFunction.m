@@ -31,6 +31,7 @@ J = J_unreg + J_reg;
 grad_unreg = (X'*error/m);
 grad_reg = ((lambda/m)*theta);
 grad = grad_unreg + grad_reg;
+
 % =========================================================================
 
 grad = grad(:);
